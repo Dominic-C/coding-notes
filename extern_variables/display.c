@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+void displayData(); // if you have "warning - implicit declaration of function displayData()". it's because you forgot this line
 extern int data[];
 
 void displayData()
